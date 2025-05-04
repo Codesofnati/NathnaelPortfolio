@@ -52,7 +52,7 @@ const NavBar = () => {
       </div>
       {nav && (
 
-        <div className=" md:hidden bg-inherit w-full absolute top-20 left-110 mx-20 flex flex-col gap-1 p-3 ">
+        <div className=" md:hidden bg-inherit w-full absolute top-20 left-50  mx-20 flex flex-col gap-1 p-3 ">
             <Link onClick={handleNav} href="#projects" className="nav-link">
               Projects
             </Link>
